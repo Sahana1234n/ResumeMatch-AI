@@ -47,10 +47,8 @@ Click below to try the live version of **ResumeMatch AI**:
 
 ▶️ Run Locally
 
-## 📦 **Box With Title (Fancy Style)**
 
 ```md
-### 📥 Installation
 
 > Clone the repository and install dependencies:
 
