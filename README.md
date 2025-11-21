@@ -2,12 +2,19 @@
 ## AI-powered Resume & Job Description Matcher with Score, Gaps & Suggestions
 
 ResumeMatch AI is an intelligent web application that compares a candidate’s resume with a job description, delivering an ATS Compatibility Score and actionable improvement suggestions by analyzing missing skills, keywords, and essential sections to boost resume effectiveness.
+
 ---
+
 ## 🚀 Live Demo
 Click below to try the live version of **ResumeMatch AI**:
 👉 **[Live Demo](https://ai-resume-match-analyzer.streamlit.app/)**  
+
 ---
+
 🚀 Features
+
+---
+
 
 📄 Upload Resume (PDF)
 
@@ -22,6 +29,7 @@ Click below to try the live version of **ResumeMatch AI**:
 ✨ Tailored Suggestions for Improvement
 
 🔄 Easy-to-use Web UI (Streamlit cloud)
+
 ---
 
 🛠️ Tech Stack
@@ -31,7 +39,9 @@ Click below to try the live version of **ResumeMatch AI**:
 - GROQ API
 - Scikit-learn
 - Regex
+  
 ---
+
 🧩 How It Works
 
 1. Extract Text from the uploaded resume.
@@ -43,19 +53,53 @@ Click below to try the live version of **ResumeMatch AI**:
    - Strengths
    - Suggestions
 5.Display everything cleanly on the UI.
+
 ---
 
 ▶️ Run Locally
 
+---
 
-```md
+1️⃣ Clone the Repository
+```
+git clone https://github.com/your-username/resumematch-ai.git
 
-> Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/username/resumematch-ai.git
+```
+2️⃣ Navigate into the Project Folder
+```
 cd resumematch-ai
-pip install -r requirements.txt
+```
+
+3️⃣ Create a .env File
+```
+GROQ_API_KEY=your_api_key_here
+```
+4️⃣ Run the Streamlit Application
+```
+streamlit run app.py
+
+```
+
+🌐 Deployment
+
+This project is deployed on Streamlit Cloud.<br>
+You can try the live demo here:<br>
+👉 Live Demo: https://ai-resume-match-analyzer.streamlit.app/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
   
